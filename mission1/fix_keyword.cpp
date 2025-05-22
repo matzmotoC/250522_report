@@ -219,7 +219,7 @@ void searchKeyword()
 		return;
 	}
 
-	for (int i = 0; i < 500; i++)
+	for (uint32_t i = 0; i < 500; i++)
 	{
 		string keyword, day;
 		fin >> keyword >> day;
